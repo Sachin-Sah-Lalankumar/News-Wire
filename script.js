@@ -56,9 +56,8 @@ function onNavItemClick(id) {
   curSelectedNav = navItem;
   curSelectedNav.classList.add("active");
 }
-
-const searchButton = document.getElementById("search-button");
 const searchText = document.getElementById("search-text");
+const searchButton = document.getElementById("search-btn");
 
 searchButton.addEventListener("click", () => {
   const query = searchText.value;
